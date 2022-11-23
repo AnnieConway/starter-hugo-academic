@@ -1,0 +1,66 @@
+<!-- About Me -->
+	<section id="about" class="three">
+		<div class="container">
+
+			<header>
+				<h2>About Me</h2>
+			</header>
+
+			<!-- <a href="#" class="image featured"><img src="img/about.jpg" alt="" /></a> -->
+<style>
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: dotted 1px rgba(128, 128, 128, 0.5);  
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 210px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 10px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -100px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 20px !important;
+  line-height: 30px !important;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 0.8;
+}
+</style>
+
+			<p>Hi, my name is Sam Rogers and I am currently based in <a target="_blank" href="https://goo.gl/maps/Cek1scCQqHk">Adelaide, South Australia</a> working as a 
+			<span class="tooltip">
+			Biometrician
+			<span class="tooltiptext"><i>noun</i>: An expert in the application of statistical analysis to biological data.</span>
+			</span> 
+			at the University of Adelaide. I have a Bachelor of Mathematical and Computer Sciences (Statistics) with Honours.</p>
+
+			<p>My passions are statistical programming, data science and data analysis. I also have experience in teaching R programming.</p>
+
+			<p>This website is my window to the world where you can find out more about me and get in touch.</p>
+
+		</div>
+	</section>
+	

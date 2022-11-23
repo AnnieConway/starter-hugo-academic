@@ -1,0 +1,154 @@
+<!DOCTYPE HTML>
+<!--
+Prologue by HTML5 UP
+html5up.net | @ajlkn
+Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html lang="en">
+
+  {{ partial "head.html" . }}
+
+<body>
+
+	<!-- Header -->
+	<div id="header">
+
+		<div class="top">
+
+			<!-- Logo -->
+			<div id="logo">
+				<!-- <span class="image avatar48"> -->
+				<picture class="image avatar48">
+					<source type="image/webp" srcset="img/avatar.webp">
+					<source type="image/jpeg" srcset="img/avatar.jpg">
+					<img src="img/avatar.jpg" alt="" />
+				</picture>
+				<!-- </span> -->
+				<h1 id="title">{{ .Site.Params.name }}</h1>
+				<p>{{ .Site.Params.description }}</p>
+			</div>
+
+			<!-- Nav -->
+			<nav id="nav">
+				<!--
+				Prologue's nav expects links in one of two formats:
+				1. Hash link (scrolls to a different section within the page)
+				<li><a href="#foobar" id="foobar-link" class="icon fa-whatever-icon-you-want skel-layers-ignoreHref"><span class="label">Foobar</span></a></li>
+				2. Standard link (sends the user to another page/site)
+				<li><a href="http://foobar.tld" id="foobar-link" class="icon fa-whatever-icon-you-want"><span class="label">Foobar</span></a></li>
+			-->
+			<ul>
+				<li class="navlist"><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Top</span></a></li>
+				<li class="navlist"><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About Me</span></a></li>
+				<li class="navlist"><a href="#employment" id="employment-link" class="skel-layers-ignoreHref"><span class="icon fa-briefcase">Employment</span></a></li>
+				<li class="navlist"><a href="#education" id="education-link" class="skel-layers-ignoreHref"><span class="icon fa-graduation-cap">Education</span></a></li>
+				<li class="navlist"><a href="#skills" id="skills-link" class="skel-layers-ignoreHref"><span class="icon fa-tasks">Skills</span></a></li>
+				<li class="navlist"><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact</span></a></li>
+			</ul>
+			
+			<!-- Navigation sidebar links -->
+			<!-- <ul>
+				{{ range .Site.Params.nav }}
+				<li>
+					<a href="#{{ .link }}" id="top-link" class="skel-layers-ignoreHref">
+						<span class="icon fa-{{ .icon }}">{{ .label }}</span>
+					</a>
+				</li>
+				{{ end }}
+			</ul> -->
+			</nav>
+		</div>
+
+	<div class="bottom">
+
+		<!-- Social Icons -->
+		<ul class="icons">
+			{{ range .Site.Params.social }}
+			<li>
+				<a href="{{ .link }}" target="_blank" rel="noreferrer" aria-label="{{ .medium }}">
+					<i class="fab fa-{{ .icon }} fa-lg"></i>
+				</a>
+			</li>
+			{{ end }}
+		</ul>
+
+	</div>
+
+	</div>
+
+	<!-- Main -->
+	<div id="main">
+
+	<!-- Intro -->
+	<section id="top" class="one dark cover">
+		<div class="container">
+
+			<header>
+				<h2 class="alt"><strong>Sam Rogers</strong></h2>
+				<p><strong>Statistician, R programmer, Data Scientist.</strong></p>
+				<p><strong>Adelaide, Australia</strong></p>
+			</header>
+
+			<footer>
+				<a href="#contact" class="button scrolly">Contact Me</a>
+			</footer>
+
+		</div>
+	</section>
+
+	{{ partial "about.html" . }}
+
+	{{ partial "employment.html" . }}
+
+	{{ partial "education.html" . }}
+		
+	{{ partial "skills.html" . }}	
+
+	{{ partial "contact.html" . }}
+	
+	
+	
+	<!-- <ul> -->
+	<!-- {{ range $.Site.Data.skills1.list }} -->
+		<!-- <li>{{ . }}</li> -->
+	<!-- {{ end }} -->
+	<!-- </ul>	 -->
+
+	</div>
+
+	<!-- Footer -->
+	<div id="footer">
+
+		<!-- Copyright -->
+		<ul class="copyright">
+			<li>&copy; {{ .Site.Params.copyright }}<script type="text/javascript">
+						document.write(new Date().getFullYear());
+						</script></li>
+			<li>Theme based on <a href="https://github.com/sethmacleod/prologue">Prologue</a> by <a href="http://html5up.net">HTML5 UP</a></li>
+			<li>Powered by <a href="https://gohugo.io/">Hugo</a></li>
+		</ul>
+
+	</div>
+
+	<!-- Scripts -->
+	<!-- <script src="/js/jquery-3.4.1.slim.min.js"></script> -->
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+		crossorigin="anonymous">
+	</script>
+	<script src="/js/jquery.scrolly.min.js"></script>
+	<script src="/js/jquery.scrollzer.min.js"></script>
+	<script src="/js/skel.min.js"></script>
+	<script src="/js/util.js"></script>
+	<!--[if lte IE 8]><script src="/js/ie/respond.min.js"></script><![endif]-->
+	<script src="/js/main.js"></script>
+	<script> 
+		jQuery.event.special.touchstart = {
+		  setup: function( _, ns, handle ){
+			this.addEventListener("touchstart", handle, { passive: true });
+		  }
+		};
+	</script>
+
+</body>
+</html>

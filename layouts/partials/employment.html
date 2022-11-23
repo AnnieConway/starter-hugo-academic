@@ -1,0 +1,19 @@
+<!-- Employment -->
+<section id="employment" class="two">
+	<div class="container">
+
+		<header>
+			<h2>Employment</h2>
+		</header>
+
+		{{ range $.Site.Data.employment }}
+			<div class="12u">
+				<ul>
+					<li> <h3>{{ .title | safeHTML}}</h3>
+					<li> {{ .employer | safeHTML}} 
+					<li> {{ .dates | safeHTML}}
+				</ul>
+			</div>
+		{{ end }}
+	</div>
+</section>

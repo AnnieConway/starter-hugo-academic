@@ -1,0 +1,35 @@
+<!-- Skills -->
+<section id="skills" class="two">
+	<div class="container">
+
+		<header>
+			<h2>Skills</h2>
+		</header>
+
+		<!-- <a href="#" class="image featured"><img src="img/about.jpg" alt="" /></a> -->
+
+		<p>Some of the skills I have developed are</p>
+		<!-- <ul class="columns">
+			<li>Statistics</li>
+			<li>R Programming</li>
+			<li>R Package Development</li>
+			<li>Data analysis</li>
+			<li>Computer Science</li>
+			<li>Shiny App Development</li>
+			<li>Cloud computing</li>
+			<li>Google Cloud Platform</li>
+			<li>Amazon Web Services</li>
+			<li>Project Management</li>
+			<li>Data Science</li>
+			<li>Training</li>
+		</ul> -->
+		
+		<ul class="columns">
+		{{ range $.Site.Data.skills_list.list }}
+			<li>{{ . }}</li>
+		{{ end }}
+		</ul>	
+
+
+	</div>
+</section>
