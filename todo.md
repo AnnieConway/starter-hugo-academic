@@ -1,0 +1,36 @@
+# To do list
+
+- Publications when relevant, including presentations
+	- Link to talks
+	- Build from static folder - see https://github.com/yihui/blogdown-static
+- Separate page (subdomain) for work/stats examples
+	- shiny apps?
+- Reorder skills
+- Update top background image?
+- Dark mode
+	- https://stackoverflow.com/questions/47772015/toggle-between-two-stylesheets
+- Footer not sliding across
+
+- ~~All favicons~~
+- ~~Education section with optional logo?~~
+- ~~Style Employment section~~
+	- ~~Larger/bold (?) job title first, others underneath~~
+	- ~~Centered or two column for wide screens?~~
+	- ~~Reduce gap slightly~~
+- ~~Update hyperlink colour in footer~~
+- ~~Parameterise nav links (see social in index file)~~
+- ~~Separate custom css file~~
+	- ~~Comment unchanged sections~~
+- ~~Update photo~~
+- ~~Google tracking~~
+- ~~Full screen image at the top~~
+	- ~~Paralax scrolling~~	
+- ~~Add Employment details (Parameterise)~~
+	- ~~Employer~~
+	- ~~Job title~~
+	- ~~Years~~
+- ~~Add Education Section (Parameterise)~~
+	- ~~Institution~~
+	- ~~Years~~
+	- ~~Degree~~
+	- ~~Major~~
