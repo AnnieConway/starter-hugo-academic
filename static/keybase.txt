@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/rogerssam
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://samrogers.website
+  * I am rogerssam (https://keybase.io/rogerssam) on keybase.
+  * I have a public key ASDC41eNeB1b6Lqe_4PpnxQe7R7_ICLyDtYeM-xS2Y3lrgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120ce3eb6abfbab19fec69f5c23f340fbc18488964744fbf070fff2a4788da5e1da0a",
+      "host": "keybase.io",
+      "kid": "0120c2e3578d781d5be8ba9eff83e99f141eed1eff2022f20ed61e33ec52d98de5ae0a",
+      "uid": "39528468c8c4ea34603b31a4b73e7f19",
+      "username": "rogerssam"
+    },
+    "merkle_root": {
+      "ctime": 1570072455,
+      "hash": "4b7c71ea115929d6c1e690e2f308b71fc04210d70aa2008689b2f2b819b87e526b675eea4805a083d3cd35ddff0212ec4462feabd2e7327a56d0074f4d83629d",
+      "hash_meta": "c6d2653710c0f3139016b039c8fadc09265631eca8b83092a5ba8a409a17814c",
+      "seqno": 7844782
+    },
+    "service": {
+      "entropy": "jL0U7m8tkGM370Zz53eH16T7",
+      "hostname": "samrogers.website",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.5.0"
+  },
+  "ctime": 1570072552,
+  "expire_in": 504576000,
+  "prev": "7ab225f86e5f856661395bcfc421c13a8c0160994e962e047182a9355a537831",
+  "seqno": 12,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgwuNXjXgdW+i6nv+D6Z8UHu0e/yAi8g7WHjPsUtmN5a4Kp3BheWxvYWTESpcCDMQgerIl+G5fhWZhOVvPxCHBOowBYJlOli4EcYKpNVpTeDHEIKCRIsECbYS/g4uKQv9n71JEtOSy6Epwgd/an54GJbhUAgHCo3NpZ8RA8OL5w5l1/7ZaxRuKMCDqZoj2GLz+1SlKJPRqjKwD0+mnTNjUv91/0YJZBTeHFKW/E1EJwQwkJLOC9Ghzd9blB6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIAQEqF/F7uE175rUv/hkSOlDVpEOMEQo0555GEZD/Rc9o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/rogerssam
+
+==================================================================
