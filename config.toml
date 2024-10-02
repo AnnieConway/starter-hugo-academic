@@ -58,9 +58,14 @@ theme = "prologue"
 ###################
 
 [[params.employment]]
+  employer = "ANZDATA Registry, SAHMRI"
+  title = "Biostatistician"
+  years = "May 2023 - Present"
+
+[[params.employment]]
   employer = "University of Adelaide, Biometry Hub"
   title = "Biometrician/Statistician"
-  years = "Aug 2018 - Present"
+  years = "Aug 2018 - April 2023"
 
 [[params.employment]]
   employer = "Australian Prudential Regulation Authority"
